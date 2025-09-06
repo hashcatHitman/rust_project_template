@@ -79,7 +79,7 @@ it will exist.)
 [dependency badge]: https://github.com/hashcatHitman/rust_project_template/status.svg
 [deps.rs]: https://github.com/hashcatHitman/rust_project_template
 
-[CI status]: https://github.com/hashcatHitman/rust_project_template/actions/workflows/ci.yml/badge.svg?branch=main
+[CI status]: https://github.com/hashcatHitman/rust_project_template/actions/workflows/ci.yml/badge.svg
 [CI workflow]: https://github.com/hashcatHitman/rust_project_template/actions/workflows/ci.yml
 
 [recommended Rust installation method]: https://www.rust-lang.org/tools/install
