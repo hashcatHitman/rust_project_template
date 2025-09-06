@@ -76,8 +76,8 @@ it will exist.)
 [unsafe forbidden]: https://img.shields.io/badge/unsafe-forbidden-success.svg
 [safety dance]: https://github.com/rust-secure-code/safety-dance/
 
-[dependency badge]: https://github.com/hashcatHitman/rust_project_template/status.svg
-[deps.rs]: https://github.com/hashcatHitman/rust_project_template
+[dependency badge]: https://deps.rs/repo/github/hashcatHitman/rust_project_template/status.svg
+[deps.rs]: https://deps.rs/repo/github/hashcatHitman/rust_project_template
 
 [CI status]: https://github.com/hashcatHitman/rust_project_template/actions/workflows/ci.yml/badge.svg
 [CI workflow]: https://github.com/hashcatHitman/rust_project_template/actions/workflows/ci.yml
