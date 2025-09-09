@@ -25,8 +25,8 @@ an amateur/non artist is preferable to an AI-generated image 100% of the time.
 If you are physically impaired and use these tools to assist with the reading
 and/or writing of contributions, you should take steps to ensure that no part of
 your contributions are changed from your original thoughts. Traditional screen
-readers and Text-To-Speech (TTS) tools will likely provide better assurance of
-this.
+readers, Text-To-Speech (TTS) tools, and Speech-To-Text (STT) tools will likely
+provide better assurance of this.
 
 If you don't understand something, please ask others to explain it to you and/or
 research it by hand. A good place to start would be the "Discussions" tab.
