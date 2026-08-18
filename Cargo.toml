@@ -84,6 +84,9 @@ impl_trait_overcaptures = "warn"
 keyword_idents_2018 = "warn"
 keyword_idents_2024 = "warn"
 
+# I'd like to know when something is going to be depreciated
+deprecated_in_future = "warn"
+
 # Messy
 absolute_paths_not_starting_with_crate = "warn"
 macro_use_extern_crate = "warn"
