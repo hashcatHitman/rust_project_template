@@ -50,6 +50,9 @@ unsafe_op_in_unsafe_fn = "forbid"
 # Casting between integers and pointers messes with provenance
 implicit_provenance_casts = "warn" # unstable; #130351
 
+# This behavior is discouraged
+raw_borrows_via_references = "warn"
+
 # I don't like ambiguity
 ambiguous_negative_literals = "warn"
 
