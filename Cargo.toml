@@ -363,6 +363,7 @@ renamed_function_params = { level = "warn", priority = 1 }
 
 # Explicit matching is preferred.
 rest_pat_in_fully_bound_structs = { level = "warn", priority = 1 }
+rest_pattern_accessible_field = { level = "warn", priority = 1 }
 
 # More concise
 return_and_then = { level = "warn", priority = 1 }
