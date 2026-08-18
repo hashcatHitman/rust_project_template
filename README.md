@@ -58,7 +58,7 @@ be located at `./target/release/rust_project_template` or
 
 <!-- Adapted from Arti's MSRV policy -->
 
-Our current Minimum Supported Rust Version (MSRV) is 1.89.
+Our current Minimum Supported Rust Version (MSRV) is 1.97.1.
 
 We may increase the patch level of the MSRV on any release.
 
