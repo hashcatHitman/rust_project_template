@@ -46,10 +46,9 @@ deprecated_safe_2024 = "forbid"
 missing_unsafe_on_extern = "forbid"
 unsafe_attr_outside_unsafe = "forbid"
 unsafe_op_in_unsafe_fn = "forbid"
-# Casting integers to pointers messes with provenance
-fuzzy_provenance_casts = "warn" # unstable; #130351
-# Casting pointers to integers loses with provenance
-lossy_provenance_casts = "warn" # unstable; #130351
+
+# Casting between integers and pointers messes with provenance
+implicit_provenance_casts = "warn" # unstable; #130351
 
 # I don't like ambiguity
 ambiguous_negative_literals = "warn"
