@@ -410,6 +410,9 @@ undocumented_unsafe_blocks = { level = "forbid", priority = 1 }
 # Panics.
 unimplemented = { level = "warn", priority = 1 }
 
+# Likely to cause unhandled fields when structs change.
+unnecessary_rest_pattern = { level = "warn", priority = 1 }
+
 # Confusing. Safe code doesn't need this.
 unnecessary_safety_comment = { level = "warn", priority = 1 }
 unnecessary_safety_doc = { level = "warn", priority = 1 }
