@@ -2,6 +2,15 @@
 #
 # SPDX-License-Identifier: Apache-2.0 OR MIT
 
+[unstable]
+min-publish-age = true
+
+[resolver]
+incompatible-publish-age = "deny"
+
+[registry]
+global-min-publish-age = "14 days"
+
 [build]
 rustflags = [
     # If I can make use of CPU-specific features I have, I'd like to.
