@@ -142,23 +142,23 @@ variant_size_differences = "warn"
 
 [lints.clippy]
 # "code that is outright wrong or useless"
-correctness = "deny"
+correctness = { level = "deny", priority = -1 }
 # "code that is most likely wrong or useless"
-suspicious = "warn"
+suspicious = { level = "warn", priority = -1 }
 # "code that does something simple but in a complex way"
-complexity = "warn"
+complexity = { level = "warn", priority = -1 }
 # "code that can be written to run faster"
-perf = "warn"
+perf = { level = "warn", priority = -1 }
 # "code that should be written in a more idiomatic way"
-style = "warn"
+style = { level = "warn", priority = -1 }
 # I tend to find these useful. I can always `expect` false positives.
-pedantic = "warn"
+pedantic = { level = "warn", priority = -1 }
 # "lints for the cargo manifest"
-cargo = "warn"
+cargo = { level = "warn", priority = -1 }
 # I find this annoying.
 must_use_candidate = { level = "allow", priority = 1 }
 # New lints are fun! They tend to work well enough.
-nursery = "warn"
+nursery = { level = "warn", priority = -1 }
 # I find this annoying.
 redundant_pub_crate = { level = "allow", priority = 1 }
 
