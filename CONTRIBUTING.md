@@ -102,7 +102,7 @@ include at least the following:
 ```toml
 [build]
 rustflags = [
-    "-Zcrate-attr=feature(strict_provenance_lints,unqualified_local_imports)",
+    "-Zcrate-attr=feature(strict_provenance_lints,unqualified_local_imports,must_not_suspend,multiple_supertrait_upcastable,non_exhaustive_omitted_patterns_lint,supertrait_item_shadowing)",
 ]
 ```
 
