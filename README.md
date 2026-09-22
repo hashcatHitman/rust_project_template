@@ -6,7 +6,10 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 
 # Rust Project Template
 
-[![unsafe forbidden]][safety dance] [![dependency badge]][deps.rs] [![CI status]][CI workflow] [![CodeQL]][CodeQL workflow]
+[![unsafe forbidden]][safety dance] [![dependency badge]][deps.rs]
+[![Rust Quality Control status]][Rust Quality Control workflow]
+[![CodeQL]][CodeQL workflow] [![Zizmor status]][Zizmor workflow]
+[![REUSE status]][REUSE workflow]
 
 ---
 
@@ -75,11 +78,17 @@ it will exist.)
 [dependency badge]: https://deps.rs/repo/github/hashcatHitman/rust_project_template/status.svg
 [deps.rs]: https://deps.rs/repo/github/hashcatHitman/rust_project_template
 
-[CI status]: https://github.com/hashcatHitman/rust_project_template/actions/workflows/ci.yml/badge.svg
-[CI workflow]: https://github.com/hashcatHitman/rust_project_template/actions/workflows/ci.yml
+[Rust Quality Control status]: https://github.com/hashcatHitman/rust_project_template/actions/workflows/rust.yml/badge.svg
+[Rust Quality Control workflow]: https://github.com/hashcatHitman/rust_project_template/actions/workflows/rust.yml
 
 [CodeQL]: https://github.com/hashcatHitman/rust_project_template/actions/workflows/github-code-scanning/codeql/badge.svg
 [CodeQL workflow]: https://github.com/hashcatHitman/rust_project_template/actions/workflows/github-code-scanning/codeql
+
+[Zizmor status]: https://github.com/hashcatHitman/rust_project_template/actions/workflows/zizmor.yml/badge.svg
+[Zizmor workflow]: https://github.com/hashcatHitman/rust_project_template/actions/workflows/zizmor.yml
+
+[REUSE status]: https://github.com/hashcatHitman/rust_project_template/actions/workflows/reuse.yml/badge.svg
+[REUSE workflow]:https://github.com/hashcatHitman/rust_project_template/actions/workflows/reuse.yml
 
 [recommended Rust installation method]: https://www.rust-lang.org/tools/install
 
