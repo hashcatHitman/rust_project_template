@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# SPDX-FileCopyrightText: Copyright © 2025 hashcatHitman
+# SPDX-FileCopyrightText: © 2025 hashcatHitman
 #
 # SPDX-License-Identifier: Apache-2.0 OR MIT
 
