@@ -9,6 +9,10 @@ on:
     branches: ["main"]
   pull_request:
     branches: ["**"]
+  # At 00:00 Etc/UTC every Monday.
+  schedule:
+    - cron: "0 0 * * 1"
+      timezone: "Etc/UTC"
   workflow_dispatch: {}
 
 permissions: {}
