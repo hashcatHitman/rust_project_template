@@ -12,7 +12,7 @@ updates:
     schedule:
       interval: daily
       time: "00:00"
-      timezone: UTC
+      timezone: "Etc/UTC"
     commit-message:
       prefix: ops
       include: scope
@@ -24,6 +24,6 @@ updates:
     schedule:
       interval: daily
       time: "00:00"
-      timezone: UTC
+      timezone: "Etc/UTC"
     commit-message:
       prefix: deps
