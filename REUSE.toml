@@ -5,3 +5,9 @@ path = ["supply-chain/*", "Cargo.lock"]
 precedence = "closest"
 SPDX-FileCopyrightText = "© 2025 hashcatHitman"
 SPDX-License-Identifier = "Apache-2.0 OR MIT"
+
+[[annotations]]
+path = ["package.json", "package-lock.json"]
+precedence = "closest"
+SPDX-FileCopyrightText = "© 2026 hashcatHitman"
+SPDX-License-Identifier = "Apache-2.0 OR MIT"

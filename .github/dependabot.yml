@@ -27,3 +27,15 @@ updates:
       timezone: "Etc/UTC"
     commit-message:
       prefix: deps
+
+  - package-ecosystem: npm
+    cooldown:
+      default-days: 14
+    directory: /
+    schedule:
+      interval: daily
+      time: "00:00"
+      timezone: UTC
+    commit-message:
+      prefix: ops
+      include: scope

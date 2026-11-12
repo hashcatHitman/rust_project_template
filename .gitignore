@@ -6,3 +6,4 @@
 /.cargo
 /.venv
 /rust-toolchain.toml
+node_modules/
