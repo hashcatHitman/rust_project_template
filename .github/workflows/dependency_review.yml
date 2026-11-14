@@ -1,0 +1,36 @@
+# SPDX-FileCopyrightText: © 2026 hashcatHitman
+#
+# SPDX-License-Identifier: Apache-2.0 OR MIT
+
+name: Dependency Review
+
+on:
+  pull_request:
+    branches: ["**"]
+  workflow_dispatch: {}
+
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  dependency-review:
+    name: Dependency Review
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Dependency Review
+        uses: actions/dependency-review-action@a1d282b36b6f3519aa1f3fc636f609c47dddb294 # v5.0.0
+        with:
+          fail-on-scopes: runtime, development, unknown
+          retry-on-snapshot-warnings: true
+          retry-on-snapshot-warnings-timeout: 300 # 5 minutes
